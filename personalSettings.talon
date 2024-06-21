@@ -8,7 +8,7 @@ settings():
     imgui.scale = 2
 
     # Set the speech timeout. Default is 0.3s.
-    speech.timeout = 0.75
+    speech.timeout = 0.6
 
     # If `true`, automatically show the picker GUI when the file manager has focus
     user.file_manager_auto_show_pickers = false
@@ -90,7 +90,7 @@ settings():
     # Don't show mode indicator by default
     user.mode_indicator_show = true
     # 30pixels diameter
-    user.mode_indicator_size = 35
+    user.mode_indicator_size = 50
     # Center horizontally
     user.mode_indicator_x = 0.5
     # Align top

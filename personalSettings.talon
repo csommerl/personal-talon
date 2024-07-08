@@ -8,13 +8,13 @@ settings():
     imgui.scale = 2
 
     # Set the speech timeout. Default is 0.3s.
-    speech.timeout = 0.6
+    speech.timeout = 0.7
 
     # If `true`, automatically show the picker GUI when the file manager has focus
     user.file_manager_auto_show_pickers = false
 
     # Set the number of command lines to display per help page
-    user.help_max_command_lines_per_page = 50
+    user.help_max_command_lines_per_page = 25
 
     # Set the number of contexts to display per help page
     user.help_max_contexts_per_page = 20
@@ -76,7 +76,7 @@ settings():
     # user.window_snap_screen = "size aware"
 
     # Puts Talon into sleep mode if no commands are spoken for a defined period of time.
-    # user.listening_timeout_minutes = 3
+    user.listening_timeout_minutes = 5
 
 # Uncomment to enable the curse yes/curse no commands (show/hide mouse cursor).
 # See issue #688 for more detail: https://github.com/talonhub/community/issues/688
